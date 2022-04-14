@@ -1,0 +1,10 @@
+.service{
+    border: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+.service img{
+    width: 100%;
+}
+.articles{
+    padding: 20px;
+}
