@@ -13,11 +13,11 @@ const experts = [
     {id:3,name:'Marten Kuper',img:expert3},
     {id:4,name:'Nero  Miller',img:expert4},
     {id:5,name:'Michel Chu',img:expert5},
-    {id:6,name:'Robert Suothe',img:expert6}
+    {id:6,name:'Zilian Malco',img:expert6}
 ]
 const Experts = () => {
     return (
-        <div className='container-fluid  m-3'>
+        <div id='experts' className='container-fluid  m-3'>
             <h2 className='text-primary text-center mt-5'>Our Experts</h2>
             <div className="row">
                 {
