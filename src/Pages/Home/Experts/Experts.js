@@ -17,7 +17,8 @@ const experts = [
 ]
 const Experts = () => {
     return (
-        <div id='experts' className='container-fluid  m-3'>
+        <div id='experts'>
+            <div className='container-fluid  m-3'>
             <h2 className='text-primary text-center mt-5'>Our Experts</h2>
             <div className="row">
                 {
@@ -27,6 +28,7 @@ const Experts = () => {
                     ></Expert>)
                 }
             </div>
+        </div>
         </div>
     );
 };
